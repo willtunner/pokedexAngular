@@ -1,0 +1,7 @@
+:host {
+  display: flex;
+  /* wrap quebra os elementos ao diminuir a tela */
+  flex-wrap: wrap;
+  /* space-evenly melhora o espaçamento na hora de quebrar */
+  place-content: space-evenly;
+}
