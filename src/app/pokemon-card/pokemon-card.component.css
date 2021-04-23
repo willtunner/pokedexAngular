@@ -1,8 +1,11 @@
 .pokemon-card {
   font-family: 'Roboto', sans-serif;
   width: 25%;
-  min-width: 325px;
+  min-width: 210px;
   box-sizing: border-box;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .pokemon-card__image img {
@@ -29,9 +32,8 @@
 }
 
 .pokemon-card__types {
-  margin: 0 10px;
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 100%;
   text-transform: none;
   text-align: center;
   color: #FFF;
