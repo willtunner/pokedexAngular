@@ -1,0 +1,17 @@
+.pagButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button {
+  background: brown;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 15;
+}
